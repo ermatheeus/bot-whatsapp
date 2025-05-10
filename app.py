@@ -18,7 +18,7 @@ for linha in pagina_clientes.iter_rows(min_row=2):
     nome = linha[0].value
     telefone = linha[1].value
     
-    mensagem = f'Opa, {nome} Tudo bem? Passando para lembrar da mensalidade de Março. Valor: R$ 40,00. Pix: jcibalneariocamboriu@jci.org.br. Peço que me envivem o comprovante de pagamento por aqui, com a informação MENSALIDADE na descrição. Aos que já pagaram, favor desconsiderar mensagem. Qualquer dúvida estou à disposição.'
+    mensagem = f'Opa, {nome} Tudo bem? Passando para lembrar da mensalidade de Maio. Valor: R$ 40,00. Pix: jcibalneariocamboriu@jci.org.br. Peço que me envivem o comprovante de pagamento por aqui, com a informação MENSALIDADE na descrição. Aos que já pagaram, favor desconsiderar mensagem. Qualquer dúvida estou à disposição.'
 
     # Links personalizados do whatsapp e enviar mensagens para cada pessoa
     # com base nos dados da planilha
